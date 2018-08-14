@@ -7,21 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0480B949D49A65DC03FAD924 /* Pods_curiouCity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B1D5780DF0F19A7C6BE2E1 /* Pods_curiouCity.framework */; };
 		0D5CE5CF2118B17C003505C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D5CE5CE2118B17C003505C2 /* AppDelegate.swift */; };
-		0D5CE5D12118B17C003505C2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D5CE5D02118B17C003505C2 /* ViewController.swift */; };
+		0D5CE5D12118B17C003505C2 /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D5CE5D02118B17C003505C2 /* MapVC.swift */; };
 		0D5CE5D42118B17C003505C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D5CE5D22118B17C003505C2 /* Main.storyboard */; };
 		0D5CE5D62118B181003505C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D5CE5D52118B181003505C2 /* Assets.xcassets */; };
 		0D5CE5D92118B181003505C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D5CE5D72118B181003505C2 /* LaunchScreen.storyboard */; };
+		0D5D65B42120A89F00DECB53 /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D5D65B32120A89F00DECB53 /* PhotoCell.swift */; };
+		0D5D65B82120B5B300DECB53 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D5D65B72120B5B300DECB53 /* Constants.swift */; };
+		0D5D65BB2120B85800DECB53 /* WebRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D5D65BA2120B85800DECB53 /* WebRequests.swift */; };
+		0D790843211FD0A700DFCFA8 /* DroppablePin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D790842211FD0A700DFCFA8 /* DroppablePin.swift */; };
+		0DB9FB8D2120FB0C008BE618 /* PopVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB9FB8C2120FB0C008BE618 /* PopVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		00B1D5780DF0F19A7C6BE2E1 /* Pods_curiouCity.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_curiouCity.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D5CE5CB2118B17C003505C2 /* curiouCity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = curiouCity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D5CE5CE2118B17C003505C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0D5CE5D02118B17C003505C2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0D5CE5D02118B17C003505C2 /* MapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
 		0D5CE5D32118B17C003505C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0D5CE5D52118B181003505C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0D5CE5D82118B181003505C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0D5CE5DA2118B181003505C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D5D65B32120A89F00DECB53 /* PhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
+		0D5D65B72120B5B300DECB53 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		0D5D65BA2120B85800DECB53 /* WebRequests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebRequests.swift; sourceTree = "<group>"; };
+		0D790842211FD0A700DFCFA8 /* DroppablePin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DroppablePin.swift; sourceTree = "<group>"; };
+		0DB9FB8C2120FB0C008BE618 /* PopVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopVC.swift; sourceTree = "<group>"; };
+		8E1522D7CADDA340D3D6331F /* Pods-curiouCity.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-curiouCity.release.xcconfig"; path = "Pods/Target Support Files/Pods-curiouCity/Pods-curiouCity.release.xcconfig"; sourceTree = "<group>"; };
+		D66D9D791E8B42AACD2DB60C /* Pods-curiouCity.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-curiouCity.debug.xcconfig"; path = "Pods/Target Support Files/Pods-curiouCity/Pods-curiouCity.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +43,45 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0480B949D49A65DC03FAD924 /* Pods_curiouCity.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D3BE8322118B258009E6A73 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0D3BE8332118B267009E6A73 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0D790842211FD0A700DFCFA8 /* DroppablePin.swift */,
+				0D5D65B32120A89F00DECB53 /* PhotoCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0D3BE8342118B275009E6A73 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0D5CE5D02118B17C003505C2 /* MapVC.swift */,
+				0DB9FB8C2120FB0C008BE618 /* PopVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		0D5CE5C22118B17C003505C2 = {
 			isa = PBXGroup;
 			children = (
 				0D5CE5CD2118B17C003505C2 /* curiouCity */,
 				0D5CE5CC2118B17C003505C2 /* Products */,
+				5AD897F53A92EE17B11F78B1 /* Pods */,
+				FE3A3272B51BE8778EEEE25B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +96,51 @@
 		0D5CE5CD2118B17C003505C2 /* curiouCity */ = {
 			isa = PBXGroup;
 			children = (
+				0D5D65B92120B84700DECB53 /* Services */,
+				0D5D65B62120B59F00DECB53 /* Utilities */,
+				0D3BE8342118B275009E6A73 /* Controllers */,
+				0D3BE8332118B267009E6A73 /* Views */,
+				0D3BE8322118B258009E6A73 /* Model */,
 				0D5CE5CE2118B17C003505C2 /* AppDelegate.swift */,
-				0D5CE5D02118B17C003505C2 /* ViewController.swift */,
 				0D5CE5D22118B17C003505C2 /* Main.storyboard */,
 				0D5CE5D52118B181003505C2 /* Assets.xcassets */,
 				0D5CE5D72118B181003505C2 /* LaunchScreen.storyboard */,
 				0D5CE5DA2118B181003505C2 /* Info.plist */,
 			);
 			path = curiouCity;
+			sourceTree = "<group>";
+		};
+		0D5D65B62120B59F00DECB53 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				0D5D65B72120B5B300DECB53 /* Constants.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		0D5D65B92120B84700DECB53 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				0D5D65BA2120B85800DECB53 /* WebRequests.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		5AD897F53A92EE17B11F78B1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D66D9D791E8B42AACD2DB60C /* Pods-curiouCity.debug.xcconfig */,
+				8E1522D7CADDA340D3D6331F /* Pods-curiouCity.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FE3A3272B51BE8778EEEE25B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				00B1D5780DF0F19A7C6BE2E1 /* Pods_curiouCity.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +150,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0D5CE5DD2118B181003505C2 /* Build configuration list for PBXNativeTarget "curiouCity" */;
 			buildPhases = (
+				52726C8B64DC2CF754221375 /* [CP] Check Pods Manifest.lock */,
 				0D5CE5C72118B17C003505C2 /* Sources */,
 				0D5CE5C82118B17C003505C2 /* Frameworks */,
 				0D5CE5C92118B17C003505C2 /* Resources */,
+				2888B2A8A278053D3AA9BDB7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,12 +211,58 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2888B2A8A278053D3AA9BDB7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-curiouCity/Pods-curiouCity-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-curiouCity/Pods-curiouCity-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		52726C8B64DC2CF754221375 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-curiouCity-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0D5CE5C72118B17C003505C2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0D5CE5D12118B17C003505C2 /* ViewController.swift in Sources */,
+				0D5D65BB2120B85800DECB53 /* WebRequests.swift in Sources */,
+				0D5D65B82120B5B300DECB53 /* Constants.swift in Sources */,
+				0DB9FB8D2120FB0C008BE618 /* PopVC.swift in Sources */,
+				0D5D65B42120A89F00DECB53 /* PhotoCell.swift in Sources */,
+				0D5CE5D12118B17C003505C2 /* MapVC.swift in Sources */,
+				0D790843211FD0A700DFCFA8 /* DroppablePin.swift in Sources */,
 				0D5CE5CF2118B17C003505C2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -278,6 +405,7 @@
 		};
 		0D5CE5DE2118B181003505C2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D66D9D791E8B42AACD2DB60C /* Pods-curiouCity.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -295,6 +423,7 @@
 		};
 		0D5CE5DF2118B181003505C2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E1522D7CADDA340D3D6331F /* Pods-curiouCity.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
